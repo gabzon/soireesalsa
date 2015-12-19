@@ -43,6 +43,9 @@
                 $('.menu.salsa-tab .item').tab();
                 $('.languages.dropdown').dropdown({transition: 'drop'});
 
+                $('.message .close').on('click', function() {
+                    $(this).closest('.message').transition('fade');
+                });
             },
             finalize: function() {
 

@@ -32,6 +32,9 @@ table.em-calendar.fullcalendar tbody tr td.eventful li a{color:<?php echo $websi
 table.em-calendar td.eventful a, table.em-calendar td.eventful-today a {color: <?php echo $website_color; ?>;}
 table.em-calendar td.eventful-today li:hover a { color: <?php echo $website_color; ?>; }
 table.em-calendar td.eventful-today li:hover a:hover { color: <?php echo $website_color; ?>; }
+.main-sidebar ul li a:hover{color: <?= $color; ?>;}
+h1.logo a:hover{color: <?= $color; ?>;}
+
 </style>
 
 <?php get_template_part('templates/sidebar'); ?>
@@ -39,9 +42,6 @@ table.em-calendar td.eventful-today li:hover a:hover { color: <?php echo $websit
     <?php get_template_part('templates/header'); ?>
     <main id="main" class="ui container">
         <br>
-        <div class="ui <?= $color; ?> message">
-            <?php _e('Our website is currently under development, if you have any question or comment please contact us at info(at)soireesalsa.ch','sage'); ?>
-        </div>
         <?php include Wrapper\template_path(); ?>
     </main><!-- /.main -->
     <?php do_action('get_footer'); ?>

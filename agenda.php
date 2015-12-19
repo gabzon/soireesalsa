@@ -18,6 +18,11 @@ date_default_timezone_set('Europe/Zurich');
 $date = date('h:i:s a', time());
 ?>
 
+<div class="ui <?= $color; ?> message transition">
+    <i class="close icon"></i>
+    <?php _e('Our website is currently under development, if you have any question or comment please contact us at info(at)soireesalsa.ch','sage'); ?>
+</div>
+
 <h2><?php _e('Soirées','sage'); ?></h2>
 <div class="ui pointing secondary <?php echo $color; ?> fluid three item menu salsa-days">
     <a class="item active" data-tab="today">
