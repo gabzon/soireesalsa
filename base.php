@@ -39,7 +39,7 @@ table.em-calendar td.eventful-today li:hover a:hover { color: <?php echo $websit
     <?php get_template_part('templates/header'); ?>
     <main id="main" class="ui container">
         <br>
-        <div class="ui negative message">
+        <div class="ui <?= $color; ?> message">
             <?php _e('Our website is currently under development, if you have any question or comment please contact us at info(at)soireesalsa.ch','sage'); ?>
         </div>
         <?php include Wrapper\template_path(); ?>

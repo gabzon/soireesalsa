@@ -42,7 +42,8 @@ $date = date('h:i:s a', time());
 <div class="ui tab" data-tab="calendar">
     <?php echo do_shortcode('[events_calendar full=1]'); ?>
 </div>
-
+<br>
+<br>
 <br>
 <div class="agenda-page">
     <?php while (have_posts()) : the_post(); ?>
