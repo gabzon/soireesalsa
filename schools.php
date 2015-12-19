@@ -17,8 +17,11 @@ $query = new WP_Query( $args );
 <br>
 <br>
 <?php if ( $query->have_posts() ) : ?>
-    <div class="ui four column grid stackable">
-        <?= count($query); ?>
+    <div class="ui four column grid stackable">        
+        <pre>
+            <?php print_r($query); ?>
+        </pre>
+        <br>
         <?php while ( $query->have_posts() ): ?>
             <?php $query->the_post(); ?>
             <div class="column">
