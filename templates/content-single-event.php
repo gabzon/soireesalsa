@@ -12,6 +12,7 @@
             <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
         </footer>
         <br>
-        <?php comments_template('/templates/comments.php'); ?>
+        <!-- not available for the moment -->
+        <?php //comments_template('/templates/comments.php'); ?>
     </article>
 <?php endwhile; ?>
