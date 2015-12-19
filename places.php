@@ -3,6 +3,8 @@
 * Template Name: Places Template
 */
 
+$theme_options = get_option('look_and_feel');
+$color = $theme_options['website_color'];
 
 $args = array (
 'post_type'              => array( 'place' ),
@@ -101,7 +103,7 @@ $query = new WP_Query( $args );
                         <div class="extra content">
                             <?php for ($i=0; $i < count($social_media); $i++): ?>
                                 <a href="<?php echo $place_media_link[$i]; ?>" class="">
-                                    <i class="<?php echo $social_media[$i];  ?> circular red inverted icon"></i>
+                                    <i class="<?php echo $social_media[$i];  ?> circular <?= $color; ?> inverted icon"></i>
                                 </a>
                             <?php endfor ?>
                         </div>

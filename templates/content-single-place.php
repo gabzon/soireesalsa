@@ -1,3 +1,7 @@
+<?php
+$theme_options = get_option('look_and_feel');
+$color = $theme_options['website_color'];
+?>
 <?php while (have_posts()) : the_post(); ?>
     <!-- Varialbles -->
     <?php $address = get_post_meta($post->ID,'place_address'); ?>
@@ -47,7 +51,7 @@
                             <?php if ($social_media[0] != ''): ?>
                                 <?php for ($i=0; $i < count($social_media); $i++): ?>
                                     <a href="<?php echo $place_media_link[$i]; ?>" target="_blank">
-                                        <i class="<?php echo $social_media[$i];  ?> circular red inverted icon"></i>
+                                        <i class="<?php echo $social_media[$i];  ?> circular <?= $color ?> inverted icon"></i>
                                     </a>
                                 <?php endfor ?>
                             <?php endif; ?>

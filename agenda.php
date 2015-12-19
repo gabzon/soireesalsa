@@ -18,8 +18,6 @@ date_default_timezone_set('Europe/Zurich');
 $date = date('h:i:s a', time());
 ?>
 
-
-<br>
 <h2><?php _e('Soirées','sage'); ?></h2>
 <div class="ui pointing secondary <?php echo $color; ?> fluid three item menu salsa-days">
     <a class="item active" data-tab="today">

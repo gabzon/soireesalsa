@@ -3,6 +3,9 @@
 * Template Name: Find class
 */
 
+$theme_options = get_option('look_and_feel');
+$color = $theme_options['website_color'];
+
 $args = array (
 'post_type'              => array( 'school' ),
 'order'                  => 'ASC',
@@ -95,12 +98,12 @@ __('Intermediate advanced','sage');
                         </td>
                         <td style="text-align:center">
                             <?php if ($website): ?>
-                                <a href="<?php echo the_permalink(); ?>"><i class="world red icon"></i></a>
+                                <a href="<?php echo the_permalink(); ?>"><i class="world <?= $color; ?> icon"></i></a>
                             <?php endif; ?>
                         </td>
                         <td>
                             <?php if (!empty($class_comments[$i])): ?>
-                                <i class="class-comment info red inverted icon"
+                                <i class="class-comment info <?= $color; ?> inverted icon"
                                 data-content="<?php echo $class_comments[$i]; ?>">
                             <?php endif; ?>
                         </td>

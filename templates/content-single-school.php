@@ -166,7 +166,7 @@ $color = $theme_options['website_color'];
                             </td>
                             <td>
                                 <?php if (!empty($class_comments[$i])): ?>
-                                    <i class="class-comment info circular red inverted icon"
+                                    <i class="class-comment info circular <?= $color ?> inverted icon"
                                     data-content="<?php echo $class_comments[$i]; ?>">
                                 <?php endif; ?>
                             </td>
