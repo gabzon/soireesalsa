@@ -1,0 +1,41 @@
+table.em-calendar.fullcalendar{
+    border:1px solid #eee;
+    width: 100%;
+    thead{
+        tr td{
+            padding: 10px 0;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            border:0;
+            a { color: white; }
+        }
+
+    }
+    tbody{
+        td{ border: 1px solid #eee; height: 70px; vertical-align: top; }
+        td.eventless-today {color:white;}
+        td.eventful-today {
+            color: white;
+            a { color: white; }
+            a:hover { background: white; }
+            ul{ list-style: none; padding:0; margin: 0;}
+        }
+        tr.days-names td {
+            height: 30px;
+            width: 14%;
+            border:0;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+            color: grey;
+            padding: 10px 0;
+        }
+        tr td.eventful{
+            background-color: #eee;
+            ul{
+                list-style: none; padding:0; margin: 0;
+            }
+        }
+    }
+}

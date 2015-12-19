@@ -1,0 +1,691 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Soiree salsa\n"
+"POT-Creation-Date: 2015-11-21 18:49+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;__;_e;gettext\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../bower_components\n"
+"X-Poedit-SearchPathExcluded-1: ../node_modules\n"
+
+#: ../404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Désolé, cette page est introuvable."
+
+#: ../agenda.php:30
+msgid "Salsa Places"
+msgstr "Lieux de Salsa"
+
+#: ../agenda.php:35
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: ../agenda.php:38
+msgid "This week"
+msgstr "Cette semaine"
+
+#: ../agenda.php:80
+msgid "Facebook Posts"
+msgstr "Articles facebook"
+
+#: ../agenda.php:83
+msgid "Events"
+msgstr "Evénements"
+
+#: ../base.php:15
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Vous utilisez une version obsolète de votre navigateur. Veuillez le  <a href="
+"\"http://browsehappy.com/\">mettre à jour</a> pour visionner votre site "
+"correctement."
+
+#: ../classes.php:15
+msgid "Beginner"
+msgstr "Débutant"
+
+#: ../classes.php:16
+msgid "Intermediate"
+msgstr "Intermédiaire"
+
+#: ../classes.php:17
+msgid "Advanced"
+msgstr "Avancé"
+
+#: ../classes.php:18
+msgid "Professional"
+msgstr "Professionnelle"
+
+#: ../classes.php:19
+msgid "Intermediate advanced"
+msgstr "Intermédiaire avancé"
+
+#: ../classes.php:33 ../classes.php:46
+msgid "Class"
+msgstr "Cours"
+
+#: ../classes.php:34 ../classes.php:47
+#: ../piklist/parts/meta-boxes/school.php:208
+#: ../templates/content-single-school.php:128
+msgid "Level"
+msgstr "Niveau"
+
+#: ../classes.php:35 ../classes.php:48
+#: ../templates/content-single-school.php:129
+msgid "Day"
+msgstr "Jour"
+
+#: ../classes.php:36 ../classes.php:49 ../model/post-type/place.php:31
+#: ../piklist/parts/meta-boxes/school.php:285
+#: ../templates/content-single-school.php:132
+msgid "Place"
+msgstr "Lieu"
+
+#: ../classes.php:37 ../classes.php:50 ../model/post-type/school.php:11
+#: ../model/post-type/school.php:31
+msgid "School"
+msgstr "Ecole"
+
+#: ../classes.php:38 ../classes.php:51
+msgid "Time"
+msgstr "Heure"
+
+#: ../classes.php:39
+msgid "Price (Lessons)"
+msgstr "Prix (leçons)"
+
+#: ../classes.php:40 ../classes.php:53
+msgid "Details"
+msgstr "Détails"
+
+#: ../classes.php:41 ../classes.php:54
+#: ../templates/content-single-school.php:96
+msgid "Info"
+msgstr "Info"
+
+#: ../classes.php:52 ../piklist/parts/meta-boxes/place.php:102
+#: ../piklist/parts/meta-boxes/school.php:140
+#: ../templates/content-single-place.php:62
+#: ../templates/content-single-school.php:93
+msgid "Price"
+msgstr "Prix"
+
+#: ../classes.php:93
+msgid "lessons"
+msgstr "leçons"
+
+#: ../classes.php:113
+msgid "There are no classes!"
+msgstr "Il n'y a pas de cours!"
+
+#: ../conf/menu.php:18
+msgid "Piklist Settings"
+msgstr "Réglages piklist"
+
+#: ../conf/menu.php:19
+msgid "Menu"
+msgstr "Menu"
+
+#: ../functions.php:27
+#, php-format
+msgid "Error locating %s for inclusion"
+msgstr "Erreurr localiser %s pour inclusion"
+
+#: ../index.php:5 ../search.php:5
+msgid "Sorry, no results were found."
+msgstr "Désolé, rien n'a été trouvé."
+
+#: ../lib/extras.php:31
+msgid "Continued"
+msgstr "Suite"
+
+#: ../lib/init.php:22
+msgid "Primary Navigation"
+msgstr "Navigation Primaire"
+
+#: ../lib/init.php:49
+msgid "Primary"
+msgstr "Primaire"
+
+#: ../lib/init.php:58
+msgid "Footer"
+msgstr "Pied de page"
+
+#: ../lib/titles.php:13
+msgid "Latest Posts"
+msgstr "Articles Récents"
+
+#: ../lib/titles.php:18
+#, php-format
+msgid "Search Results for %s"
+msgstr "Résultats pour %s"
+
+#: ../lib/titles.php:20 ../model/taxonomy/location.php:24
+#: ../model/taxonomy/style.php:25
+msgid "Not Found"
+msgstr "Non Trouvé"
+
+#: ../model/post-type/place.php:10 ../model/post-type/place.php:11
+msgid "Places"
+msgstr "Lieux"
+
+#: ../model/post-type/place.php:12
+msgid "Parent Place:"
+msgstr "Lieu Parent:"
+
+#: ../model/post-type/place.php:13
+msgid "All Places"
+msgstr "Tous les lieux"
+
+#: ../model/post-type/place.php:14
+msgid "Add New Place"
+msgstr "Ajouter un nouveau lieu"
+
+#: ../model/post-type/place.php:15 ../model/post-type/school.php:15
+msgid "Add New"
+msgstr "Ajouter nouveau"
+
+#: ../model/post-type/place.php:16
+msgid "New Place"
+msgstr "Nouveau lieu"
+
+#: ../model/post-type/place.php:17
+msgid "Edit Place"
+msgstr "Editer lieu"
+
+#: ../model/post-type/place.php:18
+msgid "Update Place"
+msgstr "Actualiser lieu"
+
+#: ../model/post-type/place.php:19
+msgid "View Place"
+msgstr "Voir lieu"
+
+#: ../model/post-type/place.php:20
+msgid "Search Place"
+msgstr "Chercher lieu"
+
+#: ../model/post-type/place.php:21 ../model/post-type/school.php:21
+msgid "Not found"
+msgstr "Pas trouvé"
+
+#: ../model/post-type/place.php:22 ../model/post-type/school.php:22
+msgid "Not found in Trash"
+msgstr "Pas trouvé dans la corbeille"
+
+#: ../model/post-type/place.php:32
+msgid "List of places where to dance salsa"
+msgstr "Liste de lieux où danser la salsa"
+
+#: ../model/post-type/school.php:10
+msgid "Schools"
+msgstr "Ecoles"
+
+#: ../model/post-type/school.php:12
+msgid "Parent School:"
+msgstr "Ecole parent:"
+
+#: ../model/post-type/school.php:13
+msgid "All Schools"
+msgstr "Toutes les écoles"
+
+#: ../model/post-type/school.php:14
+msgid "Add New School"
+msgstr "Ajouter une nouvelle école"
+
+#: ../model/post-type/school.php:16
+msgid "New School"
+msgstr "Nouvelle école"
+
+#: ../model/post-type/school.php:17
+msgid "Edit School"
+msgstr "Editer école"
+
+#: ../model/post-type/school.php:18
+msgid "Update School"
+msgstr "Actualiser école"
+
+#: ../model/post-type/school.php:19
+msgid "View School"
+msgstr "Voir école"
+
+#: ../model/post-type/school.php:20
+msgid "Search School"
+msgstr "Chercher école"
+
+#: ../model/post-type/school.php:32
+msgid "List of salsa/danse school"
+msgstr "Liste des écoles de salsa"
+
+#: ../model/taxonomy/location.php:10
+#: ../templates/content-single-school.php:180
+msgid "Locations"
+msgstr "Emplacements"
+
+#: ../model/taxonomy/location.php:11
+msgid "All Location"
+msgstr "Tous les emplacements"
+
+#: ../model/taxonomy/location.php:12
+msgid "Parent Location"
+msgstr "Emplacement parent"
+
+#: ../model/taxonomy/location.php:13
+msgid "Parent Location:"
+msgstr "Emplacement parent:"
+
+#: ../model/taxonomy/location.php:14
+msgid "New Location Name"
+msgstr "Nouveau nom d'emplacement"
+
+#: ../model/taxonomy/location.php:15
+msgid "Add New Location"
+msgstr "Ajouter un nouveau emplacements"
+
+#: ../model/taxonomy/location.php:16
+msgid "Edit Location"
+msgstr "Editer emplacement"
+
+#: ../model/taxonomy/location.php:17
+msgid "Update Location"
+msgstr "Actualiser l'emplacement"
+
+#: ../model/taxonomy/location.php:18
+msgid "View Location"
+msgstr "Voir emplacement"
+
+#: ../model/taxonomy/location.php:19
+msgid "Separate Locations with commas"
+msgstr "Séparer les emplacements avec de virgules"
+
+#: ../model/taxonomy/location.php:20
+msgid "Add or remove Locations"
+msgstr "Ajouter ou "
+
+#: ../model/taxonomy/location.php:21 ../model/taxonomy/style.php:22
+msgid "Choose from the most used"
+msgstr "Choissisez le"
+
+#: ../model/taxonomy/location.php:22
+msgid "Popular Locations"
+msgstr "Emplacements populaires"
+
+#: ../model/taxonomy/location.php:23
+msgid "Search Locations"
+msgstr "Chercher emplacements"
+
+#: ../model/taxonomy/style.php:11 ../piklist/parts/meta-boxes/place.php:117
+#: ../templates/content-single-place.php:64
+msgid "Styles"
+msgstr "Styles"
+
+#: ../model/taxonomy/style.php:12
+msgid "All Styles"
+msgstr "Tous les styles"
+
+#: ../model/taxonomy/style.php:13
+msgid "Parent Style"
+msgstr "Style parent"
+
+#: ../model/taxonomy/style.php:14
+msgid "Parent Style:"
+msgstr "Style parent:"
+
+#: ../model/taxonomy/style.php:15
+msgid "New Style Name"
+msgstr "Nouveau style"
+
+#: ../model/taxonomy/style.php:16
+msgid "Add New Style"
+msgstr "Ajouter nouveau style"
+
+#: ../model/taxonomy/style.php:17
+msgid "Edit Style"
+msgstr "Editer style"
+
+#: ../model/taxonomy/style.php:18
+msgid "Update Style"
+msgstr "Actualiser style"
+
+#: ../model/taxonomy/style.php:19
+msgid "View Style"
+msgstr "Voir style"
+
+#: ../model/taxonomy/style.php:20
+msgid "Separate Styles with commas"
+msgstr "Séparer les styles avec une virgule"
+
+#: ../model/taxonomy/style.php:21
+msgid "Add or remove Styles"
+msgstr "ajouter ou supprimer des styles"
+
+#: ../model/taxonomy/style.php:23
+msgid "Popular Styles"
+msgstr "Styles populaires"
+
+#: ../model/taxonomy/style.php:24
+msgid "Search Styles"
+msgstr "Chercher des styles"
+
+#: ../piklist/parts/meta-boxes/place.php:12
+#: ../piklist/parts/meta-boxes/school.php:12
+msgid "Email"
+msgstr "Email"
+
+#: ../piklist/parts/meta-boxes/place.php:19
+#: ../piklist/parts/meta-boxes/school.php:19
+msgid "Phone"
+msgstr "Téléphone"
+
+#: ../piklist/parts/meta-boxes/place.php:26
+#: ../piklist/parts/meta-boxes/school.php:26
+msgid "Website"
+msgstr "Site web"
+
+#: ../piklist/parts/meta-boxes/place.php:33
+#: ../piklist/parts/meta-boxes/school.php:79
+#: ../piklist/parts/meta-boxes/school.php:122
+#: ../piklist/parts/terms/address.php:22
+msgid "Address"
+msgstr "Adresse"
+
+#: ../piklist/parts/meta-boxes/place.php:40
+msgid "CP"
+msgstr "NPA"
+
+#: ../piklist/parts/meta-boxes/place.php:46
+#: ../piklist/parts/meta-boxes/school.php:93
+#: ../piklist/parts/terms/address.php:36
+msgid "City"
+msgstr "Ville"
+
+#: ../piklist/parts/meta-boxes/place.php:53
+#: ../piklist/parts/meta-boxes/school.php:107
+#: ../piklist/parts/terms/address.php:50
+msgid "Map link"
+msgstr "Lien du plan"
+
+#: ../piklist/parts/meta-boxes/place.php:60
+#: ../piklist/parts/terms/address.php:57
+msgid "Maps should be a width:600 and height:300"
+msgstr "Les plans doivent avoir une largeur de 600px et une hauteur de 300px"
+
+#: ../piklist/parts/meta-boxes/place.php:61
+#: ../piklist/parts/meta-boxes/school.php:115
+#: ../piklist/parts/terms/address.php:58
+msgid "Map"
+msgstr "Plan"
+
+#: ../piklist/parts/meta-boxes/place.php:69
+msgid "Place contact"
+msgstr "Contact du lieu"
+
+#: ../piklist/parts/meta-boxes/place.php:89
+#: ../piklist/parts/meta-boxes/school.php:234
+msgid "Monday"
+msgstr "Lundi"
+
+#: ../piklist/parts/meta-boxes/place.php:90
+#: ../piklist/parts/meta-boxes/school.php:235
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: ../piklist/parts/meta-boxes/place.php:91
+#: ../piklist/parts/meta-boxes/school.php:236
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: ../piklist/parts/meta-boxes/place.php:92
+#: ../piklist/parts/meta-boxes/school.php:237
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: ../piklist/parts/meta-boxes/place.php:93
+#: ../piklist/parts/meta-boxes/school.php:238
+msgid "Friday"
+msgstr "Vendredi"
+
+#: ../piklist/parts/meta-boxes/place.php:94
+#: ../piklist/parts/meta-boxes/school.php:239
+msgid "Saturday"
+msgstr "Samedi"
+
+#: ../piklist/parts/meta-boxes/place.php:95
+#: ../piklist/parts/meta-boxes/school.php:240
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: ../piklist/parts/meta-boxes/place.php:116
+msgid "Write all the dancing styles separated by a comma (,)"
+msgstr "Ecrivez les styles de danse séparés par un virgule(,)"
+
+#: ../piklist/parts/meta-boxes/school.php:72
+#: ../piklist/parts/terms/address.php:15
+msgid "Location name"
+msgstr "Nom du lieu"
+
+#: ../piklist/parts/meta-boxes/school.php:86
+#: ../piklist/parts/terms/address.php:29
+msgid "P.O."
+msgstr "NPA"
+
+#: ../piklist/parts/meta-boxes/school.php:100
+#: ../piklist/parts/terms/address.php:43
+msgid "Neighborhood"
+msgstr "Quartier"
+
+#: ../piklist/parts/meta-boxes/school.php:114
+msgid "Maps should be a width:800px and height:300"
+msgstr "Plans doivent avoir une largeur de 800px et une hauteur de 300px"
+
+#: ../piklist/parts/meta-boxes/school.php:147
+msgid "Type"
+msgstr "Type"
+
+#: ../piklist/parts/meta-boxes/school.php:150
+#: ../templates/content-single-school.php:4
+msgid "Adult"
+msgstr "Adulte"
+
+#: ../piklist/parts/meta-boxes/school.php:151
+msgid "AVS/Retired"
+msgstr "AVS/Retraité"
+
+#: ../piklist/parts/meta-boxes/school.php:152
+#: ../templates/content-single-school.php:2
+msgid "Students"
+msgstr "Etudients"
+
+#: ../piklist/parts/meta-boxes/school.php:153
+#: ../templates/content-single-school.php:5
+msgid "Unemployed"
+msgstr "Chômage"
+
+#: ../piklist/parts/meta-boxes/school.php:154
+msgid "In Couple"
+msgstr "En couple"
+
+#: ../piklist/parts/meta-boxes/school.php:161
+#: ../templates/content-single-school.php:94
+msgid "Payment type"
+msgstr "Type de paiement"
+
+#: ../piklist/parts/meta-boxes/school.php:164
+msgid "Per session"
+msgstr "Par session"
+
+#: ../piklist/parts/meta-boxes/school.php:165
+msgid "Monthly"
+msgstr "Mensuel"
+
+#: ../piklist/parts/meta-boxes/school.php:172
+msgid "Sessions"
+msgstr "Sessions"
+
+#: ../piklist/parts/meta-boxes/school.php:179
+#: ../piklist/parts/meta-boxes/school.php:277
+#: ../templates/content-single-place.php:65
+msgid "Comments"
+msgstr "Commentaires"
+
+#: ../piklist/parts/meta-boxes/school.php:185
+msgid "Prices"
+msgstr "Prix"
+
+#: ../piklist/parts/meta-boxes/school.php:201
+msgid "Style"
+msgstr "Style"
+
+#: ../piklist/parts/meta-boxes/school.php:222
+msgid "Level number"
+msgstr "Numéro du niveau"
+
+#: ../piklist/parts/meta-boxes/school.php:247
+msgid "Start time"
+msgstr "Heure début"
+
+#: ../piklist/parts/meta-boxes/school.php:254
+msgid "End time"
+msgstr "Heure de fin"
+
+#: ../piklist/parts/meta-boxes/school.php:261
+msgid "Start date"
+msgstr "Date de début"
+
+#: ../piklist/parts/meta-boxes/school.php:269
+msgid "End date"
+msgstr "Date de fin"
+
+#: ../piklist/parts/meta-boxes/school.php:292
+msgid "Google Maps URL"
+msgstr "URL Google maps"
+
+#: ../piklist/parts/meta-boxes/school.php:298
+#: ../piklist/parts/terms/address.php:65
+msgid "Salsa lessons"
+msgstr "Cours de salsa"
+
+#: ../places.php:80
+msgid "Days"
+msgstr "Jours"
+
+#: ../templates/comments.php:19
+msgid "&larr; Older comments"
+msgstr "&larr; Commentaires anciens"
+
+#: ../templates/comments.php:22
+msgid "Newer comments &rarr;"
+msgstr "Commentaires récents &rarr;"
+
+#: ../templates/comments.php:31
+msgid "Comments are closed."
+msgstr "Commentaires fermés."
+
+#: ../templates/content-page.php:2 ../templates/content-single.php:11
+msgid "Pages:"
+msgstr "Pages:"
+
+#: ../templates/content-single-place.php:61
+msgid "Salsa days"
+msgstr "Jours de salsa"
+
+#: ../templates/content-single-place.php:63
+#: ../templates/content-single-school.php:123
+#: ../templates/content-single-school.php:130
+msgid "Schedule"
+msgstr "Horaire"
+
+#: ../templates/content-single-place.php:88
+msgid "Location"
+msgstr "Lieu"
+
+#: ../templates/content-single-school.php:3
+msgid "Couple"
+msgstr "Couple"
+
+#: ../templates/content-single-school.php:6
+msgid "AVS"
+msgstr "AVS"
+
+#: ../templates/content-single-school.php:88
+msgid "Pricing"
+msgstr "Prix"
+
+#: ../templates/content-single-school.php:92
+msgid "Category"
+msgstr "Catégorie"
+
+#: ../templates/content-single-school.php:95
+msgid "Classes"
+msgstr "Cours"
+
+#: ../templates/content-single-school.php:127
+msgid "Name"
+msgstr "Nom"
+
+#: ../templates/content-single-school.php:131
+msgid "Starting day"
+msgstr "Première jour"
+
+#: ../templates/content-single-school.php:133
+msgid "More info"
+msgstr "Plus d'info"
+
+#: ../templates/entry-meta.php:2
+msgid "By"
+msgstr "Par"
+
+#: ../templates/searchform.php:2
+msgid "Search for:"
+msgstr "Rechercher:"
+
+#: ../templates/searchform.php:4 ../templates/searchform.php:6
+msgid "Search"
+msgstr "Recherche"
+
+#: ../templates/sidebar-menu.php:26
+msgid "Languages"
+msgstr "Langues"
+
+#~ msgid "Price (Classes)"
+#~ msgstr "Prix (Cours)"
+
+#~ msgctxt "comments title"
+#~ msgid "One response to &ldquo;%2$s&rdquo;"
+#~ msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+#~ msgstr[0] "Une réponse à &ldquo;%2$s&rdquo;"
+#~ msgstr[1] "%1$s réponses à &ldquo;%2$s&rdquo;"
+
+#~ msgid "Sage Starter Theme"
+#~ msgstr "Sage Thème Starter"
+
+#~ msgid "https://roots.io/sage/"
+#~ msgstr "https://roots.io/sage/"
+
+#~ msgid ""
+#~ "Sage is a WordPress starter theme. <a href=\"https://github.com/roots/sage"
+#~ "\">Contribute on GitHub</a>"
+#~ msgstr ""
+#~ "Sage est un thème de démarrage WordPress (Starter Theme). <a href="
+#~ "\"https://github.com/roots/sage\">Contribuer sur GitHub</a>"
+
+#~ msgid "Roots"
+#~ msgstr "Roots"
+
+#~ msgid "https://roots.io/"
+#~ msgstr "https://roots.io/"
+
+#~ msgid "Custom Template"
+#~ msgstr "Custom Template "
