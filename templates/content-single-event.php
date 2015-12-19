@@ -2,16 +2,7 @@
 <?php while (have_posts()) : the_post(); ?>
     <article <?php post_class(); ?>>
         <header>
-            <div class="ui two column grid stackable">
-                <div class="column">
-                    <h1 class="entry-title"><?php the_title(); ?></h1>
-                </div>
-                <div class="column">
-                    <div class="ui image">
-                        <?php the_post_thumbnail(); ?>
-                    </div>
-                </div>
-            </div>
+            <h1 class="entry-title"><?php the_title(); ?></h1>
         </header>
         <br>
         <div class="entry-content">
