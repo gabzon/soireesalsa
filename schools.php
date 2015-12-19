@@ -7,7 +7,6 @@ $args = array (
 'post_type'              => array( 'school' ),
 'order'                  => 'ASC',
 'orderby'                => 'rand',
-'category_name'          => 'school',
 'posts_per_page'          => -1
 );
 
@@ -18,9 +17,6 @@ $query = new WP_Query( $args );
 <br>
 <?php if ( $query->have_posts() ) : ?>
     <div class="ui four column grid stackable">
-        <pre>
-            <?php print_r($query->have_posts()); ?>
-        </pre>
         <br>
         <?php while ( $query->have_posts() ): ?>
             <?php $query->the_post(); ?>
