@@ -28,7 +28,7 @@ $query = new WP_Query( $args );
                         <?php echo get_post_meta($post->ID,'place_map',true); ?>
                     </div>
                     <div class="content">
-                        <a class="header" href="<?php //the_permalink(); ?>"><?php the_title(); ?></a>
+                        <h3 class="header"><?php the_title(); ?></h3>                        
                         <div class="meta">
                             <?php $address = get_post_meta($post->ID,'place_address',true) ?>
                             <?php $npa = get_post_meta($post->ID,'place_npa',true) ?>
