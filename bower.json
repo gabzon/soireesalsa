@@ -1,31 +1,32 @@
 {
-    "name": "sage",
-    "homepage": "https://roots.io/sage/",
-    "authors": [
-        "Ben Word <ben@benword.com>"
-    ],
-    "license": "MIT",
-    "private": true,
-    "dependencies": {
-        "modernizr": "2.8.2",
-        "semantic": "semantic-ui#~2.1.4",
-        "datatables": "~1.10.9"
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "modernizr": "2.8.2",
+    "semantic": "semantic-ui#~2.1.4",
+    "datatables": "~1.10.9",
+    "angular-material": "~1.0.1"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "./modernizr.js"
     },
-    "overrides": {
-        "modernizr": {
-            "main": "./modernizr.js"
-        },
-        "semantic": {
-            "main": [
-                "./dist/semantic.css",
-                "./dist/semantic.js"
-            ]
-        },
-        "datatables": {
-            "main"  : [
-                "./media/css/jquery.dataTables.css",
-                "./media/js/jquery.dataTables.js"
-            ]
-        }
+    "semantic": {
+      "main": [
+        "./dist/semantic.css",
+        "./dist/semantic.js"
+      ]
+    },
+    "datatables": {
+      "main": [
+        "./media/css/jquery.dataTables.css",
+        "./media/js/jquery.dataTables.js"
+      ]
     }
+  }
 }
