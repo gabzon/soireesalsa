@@ -7,7 +7,6 @@ $theme_options = get_option('look_and_feel');
 $color = $theme_options['website_color'];
 
 $website_color = get_the_color($color);
-
 ?>
 
 <!doctype html>
@@ -32,8 +31,8 @@ table.em-calendar.fullcalendar tbody tr td.eventful li a{color:<?php echo $websi
 table.em-calendar td.eventful a, table.em-calendar td.eventful-today a {color: <?php echo $website_color; ?>;}
 table.em-calendar td.eventful-today li:hover a { color: <?php echo $website_color; ?>; }
 table.em-calendar td.eventful-today li:hover a:hover { color: <?php echo $website_color; ?>; }
-.main-sidebar ul li a:hover{color: <?= $color; ?>;}
-h1.logo a:hover{color: <?= $color; ?>;}
+.main-sidebar ul li a:hover{color: <?= $website_color; ?>;}
+h1.logo a:hover{color: <?= $website_color; ?>;}
 
 </style>
 

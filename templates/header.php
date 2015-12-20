@@ -3,7 +3,7 @@ $theme_options = get_option('look_and_feel');
 $color = $theme_options['website_color'];
 ?>
 
-<div class="ui <?php echo $color ?> inverted attached padded borderless fluid menu">
+<div class="ui <?php echo $color ?> inverted fixed padded borderless fluid menu">
     <a class="item sidebar-button">
         <i class="sidebar icon"></i> MENU
     </a>
