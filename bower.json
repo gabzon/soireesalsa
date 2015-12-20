@@ -9,8 +9,7 @@
   "dependencies": {
     "modernizr": "2.8.2",
     "semantic": "semantic-ui#~2.1.4",
-    "datatables": "~1.10.9",
-    "angular-material": "~1.0.1"
+    "datatables": "~1.10.9"
   },
   "overrides": {
     "modernizr": {
