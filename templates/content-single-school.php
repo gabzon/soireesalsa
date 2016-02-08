@@ -87,7 +87,7 @@ $color = $theme_options['website_color'];
                     <?php the_content(); ?>
                     <br>
                     <?php if ($school_price): ?>
-                        <h1><?php _e('Pricing','sage') ?></h1>
+                        <h2><?php _e('Pricing','sage') ?></h2>
                         <table class="ui table">
                             <thead>
                                 <tr>
@@ -122,7 +122,7 @@ $color = $theme_options['website_color'];
             <hr>
             <section>
                 <br>
-                <h1><?php _e('Schedule','sage') ?></h1>
+                <h2><?php _e('Schedule','sage') ?></h2>
                 <table class="ui table">
                     <thead>
                         <tr>
@@ -179,7 +179,7 @@ $color = $theme_options['website_color'];
             <section class="school-location">
                 <br>
                 <?php if ($class_address): ?>
-                    <h1><?php _e('Locations','sage'); ?></h1>
+                    <h2><?php _e('Locations','sage'); ?></h2>
                     <div class="ui grid stackable">
                         <?php for ($i=0; $i < count($class_address); $i++): ?>
                             <div class="four wide column">
